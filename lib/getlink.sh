@@ -1,2 +1,2 @@
 #! /bin/sh
-/bin/netstat -pnt | grep :"$1" | wc -l
+netstat -pnt | awk '{print $4}' | grep ":$1$" | wc -l
