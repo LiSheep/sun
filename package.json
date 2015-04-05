@@ -1,0 +1,21 @@
+{
+  "name": "sun",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "description": "",
+  "dependencies": {
+    "restify": "*"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LiSheep/sun.git"
+  },
+  "readmeFilename": "README.md",
+  "author": "LiSheep",
+  "license": "MIT"
+}
